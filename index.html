@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vavá Tur - Agência de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Atenção: Estamos com pacotes de viagens com ofertas exclusivas até 30/03.</p>
+            <button class="btn btn-warning">Fale com um consultor</button>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary position-relative">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="#">VAVÁ TUR</a>
+                <div class="navbar-center">
+                    <button class="btn btn-warning">Ver Destinos</button>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto align-items-center justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#destinos">Nossos Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero text-center text-white">
+            <h2>Agência de Viagens!</h2>
+            <p>Seja para viagens corporativas ou de lazer, temos a opção ideal para você!</p>
+            <button class="btn btn-warning">Fale conosco</button>
+        </section>
+        <section class="destinos container d-flex flex-wrap justify-content-center py-4" id="destinos">
+            <div class="row justify-content-center">
+                <h2 class="text-center py-4">Conheça nossos destinos internacionais</h2>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/caba.jpg" class="card-img-top img-fluid imagem-card imagem-card" alt="Buenos Aires"
+                    >
+                    <div class="card-body">
+                    <h3 class="card-title">Buenos Aires</h3>
+                    <p class="card-text">Uma cidade que encanta, cheia de contrastes, entre o moderno e o tradicional.</p>
+                    </div>
+                </div>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/orlando.jpg" class="card-img-top img-fluid imagem-card" alt="Orlando"
+                    >
+                    <div class="card-body">
+                        <h3 class="card-title">Orlando</h3>
+                        <p class="card-text">A magia de Orlando encanta a todos! Além dos parques temáticos, a cidade tem shopping,
+                            recreação e história.</p>
+                    </div>
+                </div>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/paris.jpg" class="card-img-top img-fluid imagem-card" alt="Paris">
+                    <div class="card-body">
+                        <h3 class="card-title">Paris</h3>
+                        <p class="card-text">Paris, a cidade luz, é conhecida por sua arte, moda, gastronomia e cultura. Visite a Torre Eiffel, o Louvre e caminhe pelas charmosas ruas parisienses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <h2 class="text-center py-4">Destinos Nacionais</h2>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/sao-paulo.jpg" class="card-img-top img-fluid imagem-card" alt="São Paulo">
+                    <div class="card-body">
+                        <h3 class="card-title">São Paulo</h3>
+                        <p class="card-text">São Paulo, a maior cidade do Brasil, é um centro cultural e econômico vibrante, conhecido
+                            por sua diversidade, gastronomia e vida noturna agitada.</p>
+                    </div>
+                </div>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/recife.jpg" class="card-img-top img-fluid imagem-card" alt="Recife">
+                    <div class="card-body">
+                        <h3 class="card-title">Recife</h3>
+                        <p class="card-text">Recife, conhecida como a "Veneza Brasileira", é famosa por suas pontes, rios e ilhas. A
+                            cidade oferece uma rica história, cultura vibrante e belas praias.</p>
+                    </div>
+                </div>
+                <div class="destino card p-3 m-2">
+                    <img src="public/img/rj.jpg" class="card-img-top img-fluid imagem-card" alt="Rio de Janeiro">
+                    <div class="card-body">
+                        <h3 class="card-title">Rio de Janeiro</h3>
+                        <p class="card-text">Rio de Janeiro, conhecida como a "Cidade Maravilhosa", é famosa por suas praias icônicas, como Copacabana e Ipanema, o Cristo Redentor e o Pão de Açúcar. A cidade oferece uma combinação única de beleza natural, cultura vibrante e vida noturna animada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ofertas container d-flex flex-wrap justify-content-center py-4" id="ofertas">
+            <div class="row justify-content-center">
+                <h2 class="text-center py-4">Ofertas Especiais</h2>
+
+                <div class="oferta card p-3 m-2 border-warning">
+                    <img src="public/img/caba.jpg" class="card-img-top img-fluid imagem-card" alt="Buenos Aires"
+                    >
+                    <div class="card-body">
+                        <h3 class="card-title">Buenos Aires</h3>
+                        <p class="card-text">Pacote especial com voo + hotel por 5 dias!</p>
+                        <p class="text-danger fw-bold">A partir de R$ 2.500,00</p>
+                        <button class="btn btn-warning">Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="oferta card p-3 m-2 border-warning">
+                    <img src="public/img/orlando.jpg" class="card-img-top img-fluid imagem-card" alt="Orlando"
+                    >
+                    <div class="card-body">
+                        <h3 class="card-title">Orlando</h3>
+                        <p class="card-text">7 dias de diversão com ingressos para parques inclusos!</p>
+                        <p class="text-danger fw-bold">A partir de R$ 5.900,00</p>
+                        <button class="btn btn-warning">Saiba Mais</button>
+                    </div>
+                </div>
+
+                <div class="oferta card p-3 m-2 border-warning">
+                    <img src="public/img/rj.jpg" class="card-img-top img-fluid imagem-card" alt="Rio de Janeiro"
+                    >
+                    <div class="card-body">
+                        <h3 class="card-title">Rio de Janeiro</h3>
+                        <p class="card-text">Fim de semana no Rio com passeio ao Cristo Redentor incluso!</p>
+                        <p class="text-danger fw-bold">A partir de R$ 1.200,00</p>
+                        <button class="btn btn-warning">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contato container py-5" id="contato">
+            <h2 class="text-center py-4">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vavá Tur - Agência de Viagens. Todos os direitos reservados.</p>
+        <p>Contato: contato@vavatur.com | Telefone: (XX) XXXX-XXXX</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
