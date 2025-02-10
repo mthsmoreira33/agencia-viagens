@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .top-bar {
@@ -101,4 +102,16 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+}
+
+/* Additional CSS to prevent extra horizontal space */
+.container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
